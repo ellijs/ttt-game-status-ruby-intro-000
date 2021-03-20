@@ -59,9 +59,11 @@ end
 
 
 #winner
+
 def winner(board)
   if won?(board) == true
   puts "The winner is #{board[combo[0]]}"
+  binding.pry
   else
     puts nil
   end
