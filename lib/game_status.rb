@@ -61,10 +61,6 @@ end
 #winner
 
 def winner(board)
-  a = won?(board)
-  if a == true
-    return "#{board[combo[0]]}"
-  else
-    return nil
-  end
+  value = won?(board)
+  puts value
 end
