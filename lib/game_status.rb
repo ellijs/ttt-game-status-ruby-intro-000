@@ -61,9 +61,9 @@ end
 #winner
 
 def winner(board)
-  if won?(board) == true
-  puts "The winner is #{board[combo[0]]}"
-  binding.pry
+  a = won?(board)
+  if a == true 
+    puts "The winner is #{board[combo[0]]}"
   else
     puts nil
   end
