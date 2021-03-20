@@ -40,7 +40,7 @@ def won?(board)
   end
 end
 
-#full>
+#full?
 def full?(board)
   board.all? do |full|
     full.include?("X") || full.include?("O")
