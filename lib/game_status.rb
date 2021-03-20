@@ -61,10 +61,10 @@ end
 #winner
 def winner(board)
   combo = won?(board)
-  if combo.all? {|i| i == "X"}
-    puts "X"
-  elsif combo.all? {|i| i == "O"}
-    puts "O"
+  if combo.all? {|i| board[i] == "X"}
+    "X"
+  elsif combo.all? {|i| board[i] == "O"}
+    "O"
   else
     nil
   end
