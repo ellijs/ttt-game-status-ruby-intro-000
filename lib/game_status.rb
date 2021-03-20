@@ -63,7 +63,7 @@ end
 def winner(board)
   a = won?(board)
   if a == true
-    puts "The winner is #{board[combo[0]]}"
+    return "#{board[combo[0]]}"
   else
     return nil
   end
