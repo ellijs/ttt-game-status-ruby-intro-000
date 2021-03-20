@@ -61,7 +61,6 @@ end
 #winner
 def winner(board)
   combo = won?(board)
-  if combo
     if combo.all? do |i]
       i == "X"
       puts "X"
