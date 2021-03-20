@@ -64,11 +64,12 @@ def winner(board)
     if combo.all? do |i]
       i == "X"
       puts "X"
+    end
     elsif combo.all? do |i|
       i == "O"
       puts "O"
+    end
     else
       return nil
     end
   end
-end
